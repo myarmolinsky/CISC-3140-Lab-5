@@ -29,7 +29,7 @@ Once I opened the file, I tapped the i key to begin inserting into file, entered
 - I used the following command to execute the file:
 `./myscript.sh`
 # Task 3
-For this task I used my local unix ssh instead of the school's terminals.  I cloned a repository from my github onto which I put images for the sake of this lab (the repository can be found here: https://github.com/myarmolinsky/CISC-3140).  I used imagmagick to display an image, take an image, negate it's color, flip it horizontally, flip it virtically, and display it once all the changes have been made to it.  To do so, I made a script file called myscript.sh and gave it the following text:
+For this task I used my local unix ssh instead of the school's terminals.  I cloned a repository from my github onto which I put images for the sake of this lab (the repository can be found here: https://github.com/myarmolinsky/CISC-3140).  I used imagemagick to display an image, take an image, negate it's color, flip it horizontally, flip it virtically, and display it once all the changes have been made to it.  To do so, I made a script file called myscript.sh and gave it the following text:
 ```
 display image1.jpg
 convert -negate image1.jpg image1.jpg
