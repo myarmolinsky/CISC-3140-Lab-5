@@ -29,3 +29,12 @@ Once I opened the file, I tapped the i key to begin inserting into file, entered
 - I used the following command to execute the file:
 `./myscript.sh`
 # Task 3
+For this task I used my local unix ssh instead of the school's terminals.  I cloned a repository from my github onto which I put images for the sake of this lab (the repository can be found here: https://github.com/myarmolinsky/CISC-3140).  I used imagmagick to display an image, take an image, negate it's color, flip it horizontally, flip it virtically, and display it once all the changes have been made to it.  To do so, I made a script file called myscript.sh and gave it the following text:
+```
+display image1.jpg
+convert -negate image1.jpg image1.jpg
+convert -flop image1.jpg image1.jpg
+convert -flip image1.jpg image1.jpg
+display image1.jpg
+```
+The first line made the original image display.  The second line negated the image and replaced the original with the new one.  The third line flipped the new image horizontally and replaced it with the new one.  The fourth line flipped the new image vertically and replaced it with the new one.  Finally, the last line displays the new image after all the conversions.  Once I had the script made, I prepared it for execution using the `chmod +x myscript.sh` command and executed it via the `./myscript.sh` command.
